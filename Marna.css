@@ -1,0 +1,104 @@
+.menu{
+    div{
+        list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    }
+    margin-left: 1500px;
+}
+nav {
+    width: 50px; 
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width:100%;
+    background:darkgoldenrod;
+}
+nav ul {
+
+    height: 100%;
+    position: right flex;
+    right: 0px;
+    display: inline;
+    inline-size: none;
+    width:100%;
+   
+
+}
+.topbar{
+    background:darkgoldenrod;
+}
+nav{
+    width:100%;
+    background:darkgoldenrod;
+
+}
+
+nav > ul{
+    margin:0px;
+    padding:0px;
+
+}
+nav > ul::after{
+    display:block;
+    clear:both;
+}
+
+nav > ul > li{
+    float:right;
+    position:relative;
+
+}
+
+nav > ul > li > a{
+    padding:10px 20px;
+    color:white;
+}
+
+
+nav a{
+    display:inline-block;
+    text-decoration:none;
+}
+
+nav li{
+    list-style-type:none;
+    border: groove;
+    border-radius: 10px;
+    border-right: none;
+    border-left: none;
+}
+.section1{
+    
+    margin-top: 10px;
+ display: flex;
+ 
+ background:darkgoldenrod;
+}
+.section1 p{
+    font-size:30px;
+    font-weight: 50px;
+    margin-right:10px ;
+    
+}
+.section2{
+    margin-left: 200px;
+
+}
+.det{
+    display:flex;
+    
+}
+
+.soin,.bab,.relax,.univers{
+    border: solid 1px darkgoldenrod;
+    width:500px ;
+
+}
+.hyg{
+    border: solid 1px darkgoldenrod;
+    width:1000px ;
+}   
